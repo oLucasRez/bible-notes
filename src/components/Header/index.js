@@ -14,12 +14,12 @@ function Header() {
       start={{ x: 0, y: 0 }}
       end={{ x: 1, y: 1 }}
     >
-      <Icon name="bars" size={32} color={Colors.white[0]} />
+      <Icon name="bars" size={28} color={Colors.white[0]} />
       <View style={styles.titleContainer}>
         <SubTitle>João 1 : 1-5</SubTitle>
         <Title>O Verbo</Title>
       </View>
-      <Icon name="search" size={32} color={Colors.white[0]} />
+      <Icon name="search" size={28} color={Colors.white[0]} />
     </LinearGradient>
   );
 }
